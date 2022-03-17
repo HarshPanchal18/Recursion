@@ -14,9 +14,6 @@ int main(void)
     printf("\nEnter a number: ");
     scanf("%d", &n);
 
-    int r = iterativeFact(n);
-    printf("%d\n", r);
-
     r = recursiveFact(n);
     printf("%d\n", r);
 }
